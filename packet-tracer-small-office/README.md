@@ -1,27 +1,28 @@
-# Small Office Network — Cisco Packet Tracer
+# Project Title
 
-## Objective
+## 1. Project Overview
+<!-- What does this project simulate, and why did I build it? -->
 
-Design and test a small-office network using Cisco Packet Tracer.
+## 2. Objectives
+<!-- What skills or concepts did I want to practice? -->
 
-## Environment
+## 3. Network Topology / Architecture
+<!-- Add a Mermaid diagram or screenshot of the network architecture. -->
 
-* Tool: Cisco Packet Tracer
-* Network devices: To be documented
-* IP addressing plan: To be documented
+## 4. Tools & Technologies
+<!-- List the software, devices, protocols, and technologies used. -->
 
-## Implementation
+## 5. Configuration / Implementation
+<!-- Describe the main setup steps and important configurations. -->
 
-To be completed as the network is designed and configured.
+## 6. Testing & Verification
+<!-- What tests did I run? What were the results? -->
 
-## Testing and Validation
+## 7. Troubleshooting & Challenges
+<!-- What went wrong? How did I investigate, identify, and resolve it? -->
 
-To be completed with actual test results.
+## 8. What I Learned
+<!-- What technical knowledge or practical skills did I gain? -->
 
-## Troubleshooting
-
-Document issues encountered, diagnostic steps, and verified fixes.
-
-## Lessons Learned
-
-To be completed after the project.
+## 9. Future Improvements
+<!-- What would I like to add, improve, or practice next? -->
