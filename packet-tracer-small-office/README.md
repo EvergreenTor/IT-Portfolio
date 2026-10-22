@@ -1,4 +1,4 @@
-# Project Title
+# Small Office Network Simulation — Cisco Packet Tracer
 
 ## 1. Project Overview
 <!-- What does this project simulate, and why did I build it? -->
@@ -21,7 +21,13 @@ The goal of this project is to simulate a small-office network using Cisco Packe
 
 ## 5. Configuration / Implementation
 <!-- Describe the main setup steps and important configurations. -->
+The network initially consisted of two PCs connected to a switch. I configured static IPv4 addresses on both PCs and used ping to verify connectivity between them.
 
+I then added a router to serve as the network's default gateway, providing a path for traffic to reach other IP networks when appropriate routing and upstream connectivity are configured.
+
+Next, I configured DHCP on the router to assign IPv4 addresses automatically and added two more end devices to the network. These devices obtained their IP configuration through DHCP.
+
+This implementation provided hands-on practice with static IPv4 addressing, DHCP configuration, default gateways, and basic network connectivity testing.
 ## 6. Testing & Verification
 <!-- What tests did I run? What were the results? -->
 I performed multiple ping tests to verify connectivity between devices in the network.
@@ -39,6 +45,14 @@ These tests helped verify local network connectivity and the role of the router 
 
 ## 8. What I Learned
 <!-- What technical knowledge or practical skills did I gain? -->
+This project helped me become more familiar with Cisco Packet Tracer and its capabilities for simulating small networks. I practiced configuring static IPv4 addresses, setting up DHCP on a router, and testing connectivity with ping.
 
+I also gained practical troubleshooting experience by investigating DHCP configuration issues and APIPA addresses. When I configured static IPv4 addresses, I learned that devices on the same local network need compatible IP addresses and subnet masks to communicate directly. Incorrect addressing or subnet configuration can cause ping tests to fail.
+
+Finally, I practiced basic Cisco IOS commands to configure the router's IPv4 interface address and DHCP service. This project strengthened my understanding of IP addressing, DHCP, network connectivity, and basic troubleshooting.
 ## 9. Future Improvements
 <!-- What would I like to add, improve, or practice next? -->
+
+Future improvements to this project include adding a second IP subnet and configuring routing to test communication between devices on different subnets.
+
+VLAN configuration and network segmentation will be explored in a separate, more advanced project. That project will simulate an organization with multiple departments and demonstrate how VLANs can logically separate network traffic.
