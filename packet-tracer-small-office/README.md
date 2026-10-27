@@ -14,6 +14,18 @@ The goal of this project is to simulate a small-office network using Cisco Packe
 
 ## 3. Network Topology / Architecture
 <!-- Add a Mermaid diagram or screenshot of the network architecture. -->
+```mermaid
+flowchart TB
+    R["Router"]
+    S["Switch"]
+    PC1["PC 1"]
+    PC2["PC 2"]
+
+    R --- S
+    S --- PC1
+    S --- PC2
+```
+
 
 ## 4. Tools & Technologies
 <!-- List the software, devices, protocols, and technologies used. -->
