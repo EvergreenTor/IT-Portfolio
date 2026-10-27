@@ -18,12 +18,16 @@ The goal of this project is to simulate a small-office network using Cisco Packe
 flowchart TB
     R["Router"]
     S["Switch"]
+    PC0["PC 0"]
     PC1["PC 1"]
-    PC2["PC 2"]
+    PC2["pc 2"]
+   Laptop0["Laptop0"]
 
     R --- S
+    S --- PC0
     S --- PC1
     S --- PC2
+    S --- Laptop0
 ```
 
 
