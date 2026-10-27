@@ -58,6 +58,17 @@ These tests helped verify local network connectivity and the role of the router 
 
 ## 7. Troubleshooting & Challenges
 <!-- What went wrong? How did I investigate, identify, and resolve it? -->
+- DHCP Address Assignment
+
+During the initial setup, I tested automatic IPv4 address assignment on a PC before configuring DHCP on the network. The PC received an Automatic Private IP Addressing (APIPA) address, indicating that it had not obtained an IPv4 address from a DHCP server.
+
+Using my CompTIA Network+ knowledge, I identified the missing DHCP configuration as the likely cause. I then added a router and configured its DHCP service. Afterward, I added a new PC and a laptop to test automatic address assignment. Both devices successfully received their IP configuration through DHCP.
+
+- Cisco IOS Configuration
+
+Another challenge was configuring the router using Cisco IOS. Since I had not previously studied Cisco-specific commands in depth, I was unfamiliar with the command-line interface and the syntax required to configure the router.
+
+To overcome this challenge, I researched the required commands and used technical references and ChatGPT as learning aids to understand and apply the configuration. This experience helped me become more familiar with Cisco IOS and reinforced the importance of researching unfamiliar commands, understanding their purpose, and verifying the results.  
 
 ## 8. What I Learned
 <!-- What technical knowledge or practical skills did I gain? -->
